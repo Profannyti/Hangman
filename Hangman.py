@@ -95,6 +95,7 @@ print(display)
 
 
 while "_" in display:
+    print(\n)
     guess = input("Guess a letter: ").lower()
 
 #replacing underscore with the letter if correct
